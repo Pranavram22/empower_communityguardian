@@ -74,17 +74,17 @@ const LEGAL_CATEGORIES: LegalCategory[] = [
 const LEGAL_AID_CENTERS: LegalAidCenter[] = [
   {
     id: '1',
-    name: 'Community Legal Services',
-    address: '123 Justice Avenue, Downtown',
-    phone: '(555) 123-4567',
+    name: 'District Legal Services Authority',
+    address: '15, Court Complex, Civil Lines, Delhi 110054',
+    phone: '011-2345-6789',
     services: ['Free Legal Aid', 'Legal Counseling', 'Mediation Services'],
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2940&auto=format&fit=crop'
   },
   {
     id: '2',
-    name: 'Pro Bono Law Center',
-    address: '456 Rights Street, Midtown',
-    phone: '(555) 987-6543',
+    name: 'NALSA Legal Aid Center',
+    address: '23, Bhagwan Das Road, New Delhi 110001',
+    phone: '011-8765-4321',
     services: ['Pro Bono Services', 'Document Assistance', 'Legal Education'],
     image: 'https://images.unsplash.com/photo-1453945619913-79ec89a82c51?q=80&w=2940&auto=format&fit=crop'
   }

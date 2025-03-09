@@ -6,10 +6,10 @@ import Map from '@/components/Map';
 import { useAccidentDetection } from '@/hooks/useAccidentDetection';
 
 const EMERGENCY_SERVICES = [
-  { id: '1', name: 'Police', number: '911', icon: Shield, color: '#1E88E5' },
-  { id: '2', name: 'Medical', number: '911', icon: Heart, color: '#E53935' },
-  { id: '3', name: 'Fire', number: '911', icon: Bell, color: '#FB8C00' },
-  { id: '4', name: 'Roadside', number: '800-555-0123', icon: Car, color: '#43A047' },
+  { id: '1', name: 'Police', number: '100', icon: Shield, color: '#1E88E5' },
+  { id: '2', name: 'Medical', number: '108', icon: Heart, color: '#E53935' },
+  { id: '3', name: 'Fire', number: '101', icon: Bell, color: '#FB8C00' },
+  { id: '4', name: 'Roadside', number: '1800-120-1438', icon: Car, color: '#43A047' },
 ];
 
 export default function EmergencyScreen() {
@@ -24,9 +24,8 @@ export default function EmergencyScreen() {
     lastUpdated: new Date().toLocaleTimeString(),
   });
   const [contacts, setContacts] = useState([
-    { id: '1', name: 'John Smith', number: '+1234567890', relationship: 'Family', lastChecked: '2 hours ago' },
-    { id: '2', name: 'Sarah Johnson', number: '+1987654321', relationship: 'Friend', lastChecked: '1 day ago' },
-    { id: '3', name: 'Michael Brown', number: '+1122334455', relationship: 'Doctor', lastChecked: '3 days ago' },
+    { id: '1', name: 'mom', number: '+91 98765 43210', relationship: 'Family', lastChecked: '2 hours ago' },
+    { id: '2', name: 'dad', number: '+91 98765 43211', relationship: 'Family', lastChecked: '2 hours ago' },
   ]);
 
   const handleAccidentDetected = async (location: { latitude: number; longitude: number }) => {

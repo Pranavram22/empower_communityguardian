@@ -7,23 +7,23 @@ import Map from '@/components/Map';
 const MOCK_RESOURCES = [
   {
     id: '1',
-    name: 'Community Food Bank',
+    name: 'Annapurna Food Bank',
     type: 'Food',
-    address: '123 Main St, City',
-    phone: '(555) 123-4567',
+    address: '32, MG Road, Bengaluru 560001',
+    phone: '080-2222-3333',
     image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2940&auto=format&fit=crop',
-    latitude: 40.7128,
-    longitude: -74.0060,
+    latitude: 12.9716,
+    longitude: 77.5946,
   },
   {
     id: '2',
-    name: 'Free Medical Clinic',
+    name: 'Arogya Free Clinic',
     type: 'Healthcare',
-    address: '456 Health Ave, City',
-    phone: '(555) 987-6543',
+    address: '45, Residency Road, Bengaluru 560025',
+    phone: '080-4444-5555',
     image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=2928&auto=format&fit=crop',
-    latitude: 40.7148,
-    longitude: -74.0068,
+    latitude: 12.9719,
+    longitude: 77.6014,
   },
 ];
 
@@ -51,8 +51,8 @@ export default function ResourcesScreen() {
 
       <View style={styles.mapContainer}>
         <Map
-          latitude={40.7128}
-          longitude={-74.0060}
+          latitude={12.9716}
+          longitude={77.5946}
         />
       </View>
 

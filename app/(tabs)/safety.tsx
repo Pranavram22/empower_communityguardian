@@ -24,16 +24,16 @@ export default function SafetyReportScreen() {
   const recentReports = [
     {
       id: '1',
-      type: 'Suspicious Activity',
-      location: '123 Main St',
+      type: 'Unsafe Road Condition',
+      location: 'Koramangala 5th Block, Bengaluru 560034',
       time: '2 hours ago',
       status: 'Under Review',
       statusColor: '#FFA000',
     },
     {
       id: '2',
-      type: 'Street Light Out',
-      location: '456 Oak Ave',
+      type: 'Street Light Down',
+      location: 'HSR Layout Sector 2, Bengaluru 560102',
       time: '1 day ago',
       status: 'Resolved',
       statusColor: '#43A047',
